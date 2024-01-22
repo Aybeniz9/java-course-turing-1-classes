@@ -16,7 +16,10 @@ public class PointApp {
             System.out.println("D");
         } else if (a >= 51 && a <= 60) {
             System.out.println("E");
-        } else System.out.println("kesilmissen");
+        }
+        else if (a <=50) {
+            System.out.println("F");}
+        else System.out.println("GAME OVER");
 
 
     }

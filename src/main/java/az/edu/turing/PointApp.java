@@ -9,13 +9,13 @@ public class PointApp {
         if (a >= 91 && a <= 100) {
             System.out.println("A");
         } else if (a >= 81 && a <= 90) {
-            System.out.println("A");
+            System.out.println("B");
         } else if (a >= 71 && a <= 80) {
-            System.out.println("A");
+            System.out.println("C");
         } else if (a >= 61 && a <= 70) {
-            System.out.println("A");
+            System.out.println("D");
         } else if (a >= 51 && a <= 60) {
-            System.out.println("A");
+            System.out.println("E");
         } else System.out.println("kesilmissen");
 
 

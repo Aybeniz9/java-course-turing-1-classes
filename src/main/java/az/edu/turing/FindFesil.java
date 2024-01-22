@@ -2,7 +2,7 @@ package az.edu.turing;
 
 import java.util.Scanner;
 
-public class FindFesil{
+public class FindFesil {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class FindFesil{
         System.out.println((ay >= 1 && ay <= 12) ? (ay >= 3 && ay <= 5) ? "Payız" :
                 (ay >= 6 && ay <= 8) ? "Yay" :
                         (ay >= 9 && ay <= 11) ? "Payız" : "Qış"
-                : "Düzgün ay rəqəmi daxil etməmisiniz");
+                : "Düzgün ay rəqəmi  duzgun daxil etməmisiniz");
 
 
     }

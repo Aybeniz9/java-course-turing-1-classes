@@ -16,10 +16,9 @@ public class PointApp {
             System.out.println("D");
         } else if (a >= 51 && a <= 60) {
             System.out.println("E");
-        }
-        else if (a <=50) {
-            System.out.println("F");}
-        else System.out.println("GAME OVER");
+        } else if (a <= 50) {
+            System.out.println("Siz kesilmisiniz");
+        } else System.out.println("This point is not avaliable");
 
 
     }

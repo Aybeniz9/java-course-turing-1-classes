@@ -9,7 +9,7 @@ public class SmpleDivision {
 
             for (int i = 1; i <= number/2; i++) {
                 if (number % i == 0) {
-                    System.out.print(i + " ");
+                    System.out.print( "ededin butun bolenleri "+i);
 
                     if(i%2==0){
                     System.out.println("  ededin cut bolenleri  "+(i));}

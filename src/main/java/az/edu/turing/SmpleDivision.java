@@ -11,6 +11,7 @@ public class SmpleDivision {
                 if (number % i == 0) {
                     System.out.print( "ededin butun bolenleri "+i);
 
+
                     if(i%2==0){
                     System.out.println("  ededin cut bolenleri  "+(i));}
                     else{

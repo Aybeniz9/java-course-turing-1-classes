@@ -10,9 +10,9 @@ public class FindFesil {
         int ay = scanner.nextInt();
 
 
-        System.out.println((ay >= 1 && ay <= 12) ? (ay >= 3 && ay <= 5) ? "Payız" :
-                (ay >= 6 && ay <= 8) ? "Yay" :
-                        (ay >= 9 && ay <= 11) ? "Payız" : "Qış"
+        System.out.println((ay >= 1 && ay <= 12) ? (ay >= 3 && ay <= 5) ? "Spring" :
+                (ay >= 6 && ay <= 8) ? "Summer" :
+                        (ay >= 9 && ay <= 11) ? "Autumn" : "Winter"
                 : "Düzgün ay rəqəmi  duzgun daxil etməmisiniz");
 
 

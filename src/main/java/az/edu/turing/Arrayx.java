@@ -16,7 +16,27 @@ public class Arrayx {
 
 
         }
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j <i; j++) {
+                System.out.print("x");}
+                System.out.println("");
+            }
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j <arr.length-i ; j++) {
+                System.out.print("");
+
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print("x");
+
+            }
+            System.out.print("");
+
+        }
+        }
+
 
 
     }
-}
+

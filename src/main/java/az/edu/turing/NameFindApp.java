@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NameFindApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String gmail = sc.nextLine();
-        System.out.println(findName(gmail));
-        System.out.println(length(gmail));
+        String email = sc.nextLine();
+        System.out.println(findName(email));
+        System.out.println(length(email));
     }
 
     public static String findName(String gmail) {

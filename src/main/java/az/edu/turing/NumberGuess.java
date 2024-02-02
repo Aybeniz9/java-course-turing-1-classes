@@ -1,12 +1,13 @@
 package az.edu.turing;
+
 import java.util.Random;
 import java.util.Scanner;
+
 public class NumberGuess {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randomNumber = random.nextInt(100) + 1;
-
         int guess;
 //        int[] guessNumbers = new int[100];
         System.out.println("Lets the game!");

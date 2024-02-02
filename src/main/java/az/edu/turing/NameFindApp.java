@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NameFindApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String email = sc.nextLine();
+        final String email = sc.nextLine();
         System.out.println(findName(email));
         System.out.println(length(email));
     }

@@ -10,9 +10,9 @@ public class NameFindApp {
         System.out.println(length(email));
     }
 
-    public static String findName(String gmail) {
+    public static String findName(String email) {
 
-        return gmail.substring(gmail.charAt('@'));
+        return email.substring(0,email.indexOf('@'));
 
     }
 

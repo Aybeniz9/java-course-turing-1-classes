@@ -9,6 +9,8 @@ public class SimpleDivideApp {
         for (int i = 1; i <= number/2; i++) {
             if (number % i == 0) {
                 System.out.print(i + " ");
+
+
             }
 
         }
